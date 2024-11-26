@@ -3,6 +3,7 @@ on: workflow_dispatch
 env:
   AWS_REGION: us-west-1
   ECR_REPOSITORY: batmanvapp
+  EKS_CLUSTER: batman-eks
 
 jobs:
   Testing:
