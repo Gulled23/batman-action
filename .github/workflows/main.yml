@@ -54,6 +54,6 @@ jobs:
             -Dsonar.token=${{ secrets.SONAR_TOKEN }} \
             -Dsonar.java.binaries=target/classes/
 
-      # Post build cleanup
+      ## Post build cleanup
       - name: Cleanup
         run: mvn clean
